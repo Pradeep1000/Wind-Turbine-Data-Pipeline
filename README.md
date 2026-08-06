@@ -1,6 +1,4 @@
 # Wind-Turbine-Data-Pipeline
-Scalable PySpark data pipeline for processing wind turbine telemetry, performing statistical aggregations, detecting anomalies, and storing clean data in SQLite.
-
 A scalable big data processing pipeline built using PySpark designed to ingest, clean, aggregate, and analyze multi-source telemetry data from 15 wind turbines. The project automates data extraction, performs rigorous data quality checks, handles missing and duplicate values, calculates statistical aggregations, detects anomalies using standard deviation thresholds, and exports the final insights into a structured SQLite database and compressed archive bundles.
 
 An organization needed a reliable, high-performance data processing pipeline to ingest raw, distributed telemetry log datasets (`data_group_1.csv`, `data_group_2.csv`, `data_group_3.csv`) containing timestamped wind speed, direction, and power output metrics across 15 separate wind turbines.
